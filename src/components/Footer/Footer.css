@@ -1,0 +1,14 @@
+.itschool-footer a {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+  color: var(--primary);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.itschool-footer a:hover {
+  color: var(--success);
+}

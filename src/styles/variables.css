@@ -1,0 +1,7 @@
+:root {
+  --white: #fff;
+  --primary: #191e30;
+  --primary-light: rgba(252, 250, 247, 0.1);
+  --warning: #ecb13a;
+  --success: #008768;
+}

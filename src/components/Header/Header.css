@@ -1,0 +1,29 @@
+.itschool-news-header {
+  background-color: var(--primary);
+}
+
+.itschool-news-header .navbar-collapse .navbar-nav .nav-link {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 500;
+  color: var(--white);
+  padding: 10px 24px;
+  border-radius: 20px;
+  transition: all 0.2s ease-in 0s;
+}
+
+.itschool-news-header
+  .navbar-collapse
+  .navbar-nav
+  .nav-link:not(.active):hover {
+  color: var(--warning);
+}
+
+.itschool-news-header .navbar-collapse .navbar-nav .nav-link.active {
+  background-color: var(--primary-light);
+  cursor: default;
+}
+
+.itschool-news-header .navbar-toggler {
+  background-color: var(--white);
+}

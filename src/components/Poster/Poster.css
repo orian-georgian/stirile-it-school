@@ -1,0 +1,13 @@
+.itschool-poster {
+  background-image: url("/public/images/background-section1.svg");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: var(--white);
+  padding-top: 100px;
+}
+
+.itschool-poster .poster-image {
+  max-height: 500px;
+}
