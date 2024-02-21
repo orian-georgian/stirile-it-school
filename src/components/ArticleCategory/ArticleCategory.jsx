@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import { Stack } from "react-bootstrap";
 
 import Section from "../Section/Section";
 
@@ -8,11 +9,13 @@ export default function ArticleCategory() {
   const title = categoryType.charAt(0).toUpperCase() + categoryType.slice(1);
 
   return (
-    <Section
-      title={title}
-      section={categoryType}
-      itemsPerPage={30}
-      hasPagination={true}
-    />
+    <Stack className="articles-background">
+      <Section
+        title={title}
+        section={categoryType}
+        itemsPerPage={30}
+        hasPagination={true}
+      />
+    </Stack>
   );
 }

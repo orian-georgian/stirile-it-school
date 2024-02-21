@@ -18,7 +18,7 @@ export default function Section({
   const { data } = useFetch(url);
 
   return (
-    <Stack className="itschool-landing-page py-5">
+    <Stack className="itschool-section py-5">
       <Row className="max-content-width">
         <h2 className="h2 text-center mb-5">{title}</h2>
         {data &&
@@ -31,10 +31,7 @@ export default function Section({
       </Row>
       {hasPagination && (
         <Row className="max-content-width mt-5">
-          <ArticlesPagination
-            currentPage={page}
-            totalPages={data?.response.pages}
-          />
+          <ArticlesPagination page={page} totalPages={data?.response.pages} />
         </Row>
       )}
     </Stack>

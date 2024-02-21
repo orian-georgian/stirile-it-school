@@ -1,6 +1,6 @@
 import { Pagination } from "react-bootstrap";
 
-export default function ArticlesPagination({ currentPage, totalPages }) {
+export default function ArticlesPagination({ page, totalPages }) {
   return (
     <Pagination className="justify-content-center" size="lg">
       <Pagination.First />

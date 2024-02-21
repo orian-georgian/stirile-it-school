@@ -2,18 +2,15 @@ import { Stack } from "react-bootstrap";
 
 import Section from "../Section/Section";
 
-import "./LandingPage.css";
-
 export default function LandingPage() {
   return (
-    <Stack className="itschool-landing-page">
+    <Stack className="itschool-landing-page articles-background">
       <Section
         title="Football"
         section="football"
         itemsPerPage={6}
         hasPagination={false}
       />
-
       <Section
         title="Weather"
         section="weather"
