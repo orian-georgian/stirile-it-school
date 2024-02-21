@@ -13,9 +13,9 @@ export default function Section({
   itemsPerPage,
   hasPagination,
 }) {
-  const url = getUrlBySection(section, 1, itemsPerPage);
-  const { data } = useFetch(url, section);
   const { page } = usePagination();
+  const url = getUrlBySection(section, page, itemsPerPage);
+  const { data } = useFetch(url);
 
   return (
     <Stack className="itschool-landing-page py-5">
