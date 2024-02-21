@@ -2,9 +2,11 @@ import { Stack } from "react-bootstrap";
 
 import Section from "../Section/Section";
 
+import "./LandingPage.css";
+
 export default function LandingPage() {
   return (
-    <Stack className="itschool-landing-page py-5">
+    <Stack className="itschool-landing-page">
       <Section
         title="Football"
         section="football"
