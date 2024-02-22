@@ -6,6 +6,7 @@
   background-attachment: fixed;
   color: var(--white);
   padding-top: 100px;
+  min-height: 600px;
 }
 
 .itschool-poster .poster-image {

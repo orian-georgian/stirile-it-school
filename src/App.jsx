@@ -1,6 +1,6 @@
 import {
   Header,
-  Poster,
+  ArticlePage,
   Footer,
   LandingPage,
   ArticleCategory,
@@ -17,10 +17,14 @@ function App() {
     <BrowserRouter>
       <Stack className="itschool-news">
         <Header />
-        <Poster />
         <Routes>
           <Route exact path="/" element={<LandingPage />} />
-          <Route path="/category/:categoryType" element={<ArticleCategory />} />
+          <Route
+            exact
+            path="/category/:categoryType"
+            element={<ArticleCategory />}
+          />
+          <Route exact path="/article/:articleId" element={<ArticlePage />} />
         </Routes>
         <Footer />
       </Stack>

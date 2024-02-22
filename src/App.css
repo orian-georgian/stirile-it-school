@@ -27,3 +27,8 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}

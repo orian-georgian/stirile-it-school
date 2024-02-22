@@ -6,6 +6,10 @@ const useFetch = (url) => {
   const [error, setError] = useState(null);
 
   const fetchData = async () => {
+    if (error) {
+      setError(null);
+    }
+
     try {
       const response = await fetch(url);
       const data = await response.json();
@@ -14,12 +18,15 @@ const useFetch = (url) => {
       setLoading(false);
     } catch (error) {
       setError(error);
+      setData(null);
       setLoading(false);
     }
   };
 
   useEffect(() => {
-    fetchData();
+    if (url) {
+      fetchData();
+    }
   }, [url]);
 
   return { data, loading, error };
