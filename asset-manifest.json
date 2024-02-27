@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/stirile-it-school/static/css/main.02e393a3.css",
-    "main.js": "/stirile-it-school/static/js/main.f6dbe6a9.js",
+    "main.css": "/stirile-it-school/static/css/main.b5a1a4b4.css",
+    "main.js": "/stirile-it-school/static/js/main.243c817d.js",
     "static/js/453.ec4f8427.chunk.js": "/stirile-it-school/static/js/453.ec4f8427.chunk.js",
     "static/media/Poppins-Thin.ttf": "/stirile-it-school/static/media/Poppins-Thin.59ff6a729e30c99b478e.ttf",
     "static/media/Poppins-ExtraLight.ttf": "/stirile-it-school/static/media/Poppins-ExtraLight.333cb30c20e31999802a.ttf",
@@ -21,12 +21,12 @@
     "static/media/background-section1.svg": "/stirile-it-school/static/media/background-section1.16620b9eff291cd9dcab.svg",
     "static/media/background-section2.svg": "/stirile-it-school/static/media/background-section2.2eb778139767f89962bc.svg",
     "index.html": "/stirile-it-school/index.html",
-    "main.02e393a3.css.map": "/stirile-it-school/static/css/main.02e393a3.css.map",
-    "main.f6dbe6a9.js.map": "/stirile-it-school/static/js/main.f6dbe6a9.js.map",
+    "main.b5a1a4b4.css.map": "/stirile-it-school/static/css/main.b5a1a4b4.css.map",
+    "main.243c817d.js.map": "/stirile-it-school/static/js/main.243c817d.js.map",
     "453.ec4f8427.chunk.js.map": "/stirile-it-school/static/js/453.ec4f8427.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02e393a3.css",
-    "static/js/main.f6dbe6a9.js"
+    "static/css/main.b5a1a4b4.css",
+    "static/js/main.243c817d.js"
   ]
 }
