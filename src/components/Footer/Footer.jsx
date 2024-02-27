@@ -7,7 +7,7 @@ export default function Footer() {
     <Stack className="itschool-footer">
       <Row className="max-content-width py-5 d-flex">
         <Col className="d-flex flex-column gap-4 pe-5" md={3}>
-          <Image src="/images/dark-logo.svg" width={108} />
+          <Image src="./images/dark-logo.svg" width={108} />
           <p>
             Din 2014, peste 8000 de începători ne-au ales să le fim partener în
             procesul lor de transformare digitală.
@@ -16,10 +16,10 @@ export default function Footer() {
           <div className="d-flex flex-column gap-2">
             <small className="text-muted">Social Media</small>
             <Stack direction="horizontal" gap={3}>
-              <Image src="/images/facebook.svg" width={24} />
-              <Image src="/images/linkedin.svg" width={24} />
-              <Image src="/images/youtube.svg" width={24} />
-              <Image src="/images/instagram.svg" width={24} />
+              <Image src="./images/facebook.svg" width={24} />
+              <Image src="./images/linkedin.svg" width={24} />
+              <Image src="./images/youtube.svg" width={24} />
+              <Image src="./images/instagram.svg" width={24} />
             </Stack>
           </div>
         </Col>

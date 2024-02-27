@@ -12,3 +12,14 @@
 .itschool-poster .poster-image {
   max-height: 500px;
 }
+
+@media screen and (max-width: 768px) {
+  .itschool-poster {
+    padding-top: 10px;
+    min-height: 400px;
+  }
+
+  .itschool-poster .poster-image {
+    max-height: 300px;
+  }
+}

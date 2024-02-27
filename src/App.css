@@ -16,6 +16,13 @@ body {
   padding: 0 20px;
 }
 
+.max-content-width-900 {
+  width: 100%;
+  max-width: min(940px, 100vw);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .row > * {
   padding: 0;
 }
@@ -31,4 +38,8 @@ body {
 a {
   color: var(--primary);
   text-decoration: none;
+}
+
+.h-500 {
+  height: 500px;
 }

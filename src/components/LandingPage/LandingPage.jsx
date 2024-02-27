@@ -13,7 +13,7 @@ export default function LandingPage() {
             click unveils a new chapter in the ever-evolving narrative of our
             world. Explore, learn, and stay ahead with our comprehensive
             coverage. Start your journey now!"
-        image="/images/news-lady.png"
+        image="./images/news-lady.png"
       />
       <Section
         title="Football"

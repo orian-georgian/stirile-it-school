@@ -5,3 +5,5 @@ export { default as LandingPage } from "./LandingPage/LandingPage";
 export { default as Section } from "./Section/Section";
 export { default as ArticleCategory } from "./ArticleCategory/ArticleCategory";
 export { default as ArticlePage } from "./ArticlePage/ArticlePage";
+export { default as Error } from "./Error/Error";
+export { default as FavoriteArticles } from "./FavoriteArticles/FavoriteArticles";

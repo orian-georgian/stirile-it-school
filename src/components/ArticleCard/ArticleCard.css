@@ -1,11 +1,19 @@
-.itschool-article-card .article-redirect {
+.itschool-article-card .article-redirect,
+.itschool-article-card .article-favorite {
   position: absolute;
-  right: 20px;
   top: 20px;
-  visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
 
-.itschool-article-card:hover .article-redirect {
-  visibility: visible;
+.itschool-article-card .article-redirect {
+  right: 20px;
+}
+
+.itschool-article-card .article-favorite {
+  left: 20px;
+}
+
+.itschool-article-card .article-redirect:hover,
+.itschool-article-card .article-favorite:hover {
+  transform: scale(1.2);
 }

@@ -1,0 +1,14 @@
+.itschool-article-page .element-image .gu-image {
+  width: 100%;
+  height: auto;
+}
+
+.itschool-article-page .article-content a {
+  color: var(--success);
+  font-weight: 500;
+}
+
+.itschool-article-page .article-content iframe {
+  width: 100%;
+  height: 600px;
+}
